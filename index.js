@@ -1,4 +1,14 @@
+
+// This line uses dotenv to load environment variables from a
+//  .env file into process.env. It allows sensitive information like database URLs, 
+//  API keys, etc., to be stored outside the codebase.
 require('dotenv').config();//
+
+
+
+// Here, the code imports required Node.js modules. 
+// Express is used for creating the server, Mongoose for MongoDB database interaction, 
+// and routes to manage API routes.
 
 const express = require('express');
 const mongoose = require('mongoose');
