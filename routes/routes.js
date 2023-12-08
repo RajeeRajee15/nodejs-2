@@ -1,5 +1,8 @@
+
+//Express framework and initializes a router using 
 const express = require('express');
 
+//express.Router(). The created router is then exported to be used in other parts of the application.
 const router = express.Router()
 
 module.exports = router;
